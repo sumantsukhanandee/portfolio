@@ -1088,13 +1088,19 @@
         .skill-pill {
             background: rgba(255, 255, 255, .03);
             border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 22px 14px 18px;
+            border-radius: 12px;
+            padding: 16px 14px 14px;
             text-align: center;
             transition: border-color .3s, transform .3s, background .3s;
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        .sp-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+            display: block;
         }
 
         .skill-pill:hover {
@@ -1680,7 +1686,6 @@
         <div class="wrap">
             <div class="hero-grid">
                 <div class="hero-left">
-                    <div class="avail-badge"><span class="avail-dot"></span>Open to Opportunities</div>
                     <h1 class="hero-name">
                         <span class="reveal-line"><span>Sumant</span></span>
                         <span class="reveal-line"><span class="gtxt">Sukhanandee</span></span>
@@ -1688,26 +1693,12 @@
                     <div class="hero-role">
                         <span>I build&nbsp;</span><span id="typed-txt"></span><span class="caret"></span>
                     </div>
-                    <p class="hero-desc">Software Engineer with 4+ years crafting high-performance web applications.
+                    <p class="hero-desc">Software Engineer with 4.8+ years crafting high-performance web applications.
                         Expert in Laravel + React.js — turning complex requirements into elegant, scalable solutions.
                     </p>
                     <div class="hero-btns">
                         <a href="#projects" class="btn-g primary"><i class="fas fa-rocket"></i> View My Work</a>
                         <a href="#contact" class="btn-g ghost"><i class="fas fa-paper-plane"></i> Let's Connect</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div>
-                            <div class="stat-n" data-count="4">0<b>+</b></div>
-                            <div class="stat-l">Years Experience</div>
-                        </div>
-                        <div>
-                            <div class="stat-n" data-count="10">0<b>+</b></div>
-                            <div class="stat-l">Projects Built</div>
-                        </div>
-                        <div>
-                            <div class="stat-n" data-count="3">0<b>+</b></div>
-                            <div class="stat-l">Companies</div>
-                        </div>
                     </div>
                 </div>
                 <div class="hero-right">
@@ -1731,7 +1722,7 @@
                                 class="cs">'JS'</span><br>
                             &nbsp;&nbsp;];<br>
                             &nbsp;&nbsp;<span class="ck">public</span> <span class="ct">$exp</span> = <span
-                                class="cn">4</span>;<br><br>
+                                class="cn">4.8</span>;<br><br>
                             &nbsp;&nbsp;<span class="ck">public function</span> <span class="cf">build</span>() {<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;<span class="ck">return</span> <span class="cs">'scalable apps
                                 ✨'</span>;<br>
@@ -1773,17 +1764,10 @@
                             </div>
                         </div>
                         <div class="av-badge b-exp">
-                            <div class="bval">4+</div>
+                            <div class="bval">4.8+</div>
                             <div>
                                 <div style="font-size:13px;font-weight:700;color:var(--text)">Years</div>
                                 <div class="blbl">Experience</div>
-                            </div>
-                        </div>
-                        <div class="av-badge b-proj">
-                            <span class="bico">🏆</span>
-                            <div>
-                                <div style="font-size:13px;font-weight:700;color:var(--text)">10+ Projects</div>
-                                <div class="blbl">Delivered</div>
                             </div>
                         </div>
                         <div class="av-badge b-loc">
@@ -1844,74 +1828,74 @@
                     experiences.</p>
             </div>
             <div class="skills-grid fade-up">
-                <div class="skill-pill" data-v="95"><span class="sp-icon">🐘</span>
+                <div class="skill-pill" data-v="95"><i class="fa-brands fa-php sp-icon" style="color: #777BB4;"></i>
                     <div class="sp-name">PHP</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="93"><span class="sp-icon">🔴</span>
+                <div class="skill-pill" data-v="93"><i class="fa-brands fa-laravel sp-icon" style="color: #FF2D20;"></i>
                     <div class="sp-name">Laravel</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="82"><span class="sp-icon">⚛️</span>
+                <div class="skill-pill" data-v="82"><i class="fa-brands fa-react sp-icon" style="color: #61DAFB;"></i>
                     <div class="sp-name">React.js</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="88"><span class="sp-icon">🗄️</span>
+                <div class="skill-pill" data-v="88"><i class="fa-solid fa-database sp-icon" style="color: #4479A1;"></i>
                     <div class="sp-name">MySQL / SQL</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="90"><span class="sp-icon">🌐</span>
+                <div class="skill-pill" data-v="90"><i class="fa-brands fa-html5 sp-icon" style="color: #E34F26;"></i>
                     <div class="sp-name">HTML &amp; CSS</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="85"><span class="sp-icon">🟨</span>
+                <div class="skill-pill" data-v="85"><i class="fa-brands fa-js sp-icon" style="color: #F7DF1E;"></i>
                     <div class="sp-name">JavaScript</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="80"><span class="sp-icon">💅</span>
+                <div class="skill-pill" data-v="80"><i class="fa-brands fa-bootstrap sp-icon" style="color: #7952B3;"></i>
                     <div class="sp-name">Bootstrap</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="78"><span class="sp-icon">💲</span>
+                <div class="skill-pill" data-v="78"><i class="fa-brands fa-js-square sp-icon" style="color: #0769AD;"></i>
                     <div class="sp-name">jQuery</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="87"><span class="sp-icon">🐙</span>
-                    <div class="sp-name">Git</div>
+                <div class="skill-pill" data-v="87"><i class="fa-brands fa-github sp-icon" style="color: #ffffff;"></i>
+                    <div class="sp-name">GitHub / Bitbucket</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="85"><span class="sp-icon">⚙️</span>
+                <div class="skill-pill" data-v="85"><i class="fa-solid fa-gears sp-icon" style="color: #34d399;"></i>
                     <div class="sp-name">REST APIs</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="80"><span class="sp-icon">🔒</span>
-                    <div class="sp-name">RBAC / Auth</div>
+                <div class="skill-pill" data-v="80"><i class="fa-brands fa-aws sp-icon" style="color: #FF9900;"></i>
+                    <div class="sp-name">AWS</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
                 </div>
-                <div class="skill-pill" data-v="82"><span class="sp-icon">🗺️</span>
-                    <div class="sp-name">Google Maps</div>
+                <div class="skill-pill" data-v="82"><i class="fa-solid fa-plug sp-icon" style="color: #3dd9eb;"></i>
+                    <div class="sp-name">Third Party Integration</div>
                     <div class="sp-bar">
                         <div class="sp-fill"></div>
                     </div>
@@ -2098,7 +2082,7 @@
     <!-- FOOTER -->
     <footer>
         <div class="wrap">
-            <p>Designed &amp; Built with ❤️ by <span>Sumant Sukhanandee</span> &nbsp;·&nbsp; 2024</p>
+            <p>Designed &amp; Built with ❤️ by <span>Sumant Sukhanandee</span></p>
         </div>
     </footer>
 
